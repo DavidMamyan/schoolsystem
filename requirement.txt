@@ -1,1 +1,25 @@
-TEST
+1) School managment system
+2) 2 major roles - Pricipal & teacher
+3) Principal can SEE quarter and final marks
+4) Teacher can add marks, add students, full CRUD
+5) If student is removed accidentally, it can be retrieved back again
+
+Tech points
+HTML5, CSS3, Bootstrap 4, jQuery, JS
+CodeIgniter
+The website does not have an index page on Front-end, but has some sort of admin with different roles.
+
+
+
+Mi hat admin paneli login
+Yst logini mej nermucvac detailner-i parza darnum te director a te teacher
+2 role unenq, talis enq mysql-um 
+1 - director
+2 - teacher
+
+Role: Varchar 1 2
+
+On deletion
+boolean is_active: 1/0
+On delete is_active = 0;
+In edit, have button is_active = 1;
